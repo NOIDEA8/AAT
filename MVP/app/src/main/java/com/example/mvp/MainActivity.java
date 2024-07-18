@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.ib_back:
-                playerInstance.clickBack();
+                playerInstance.clickBack();//jkhk
                 break;
             case R.id.ib_next:
                playerInstance.clickNext(new SongCallback() {

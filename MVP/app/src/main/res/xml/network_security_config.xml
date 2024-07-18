@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <!-- 默认配置，禁止明文流量 -->
+    </base-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">p1.music.126.net</domain>
+        <domain includeSubdomains="true">p2.music.126.net</domain>
+        <!-- 为特定域名允许明文流量 -->
+    </domain-config>
+</network-security-config>
